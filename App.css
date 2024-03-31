@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.App {
+    text-align: center;
+    margin: 50px auto 0px;
+    width: 90%;
+    max-width: 700px;
+    border-radius: 20px;
+    height: 470px;
+    padding: 20px 15px;
+    background: rgb(103, 45, 154);
+}
+
+.search-engine {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+.search-engine input {
+    width: 70%;
+    height: 45px;
+    border: 1px solid;
+    border-radius: 8px;
+    padding: 2px 15px;
+    font-size: 16px;
+    outline: none;
+    background-color: gainsboro;
+    color: rgb(123, 123, 14);
+}
+
+.search-engine button {
+    border: none;
+    border-radius: 8px;
+    background-color: blue;
+    color: rgb(12, 176, 176);
+    font-size: 20px;
+    outline: none;
+    cursor: pointer;
+    padding: 12px 15px;
+}
+
+.city-name {
+    margin-bottom: 10px;
+}
+
+.loading {
+    font-size: 60px;
+    font-weight: bolder;
+    color: white;
+}
+
+.date {
+    font-size: 18px;
+    font-weight: 500;
+    font-style: oblique;
+}
+
+.temp {
+    font-size: 64px;
+    color: rgb(179, 109, 147);
+    font-weight: bold;
+    text-align: center;
+}
+.description {
+    color: rgb(179, 109, 147);
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.weather-info{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+    padding: 0px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+.column {
+    display: flex;
+    align-items: center;
+    line-height: 1px;
+}
